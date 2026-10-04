@@ -1,0 +1,51 @@
+import type { NotificationItem } from '../../types';
+
+export const mockNotifications: NotificationItem[] = [
+  {
+    id: 'notif-1',
+    title: 'Mid-Semester Examination Schedule for B.Tech Autumn 2024 Released',
+    body: 'The detailed examination timetable for all B.Tech branches commencing October 12th is now accessible. Students with verified attendance above 75% will be able to download their digital hall tickets starting Oct 9.',
+    timestamp: '2 hours ago',
+    category: 'official',
+    isRead: false,
+    isPinned: true,
+    author: 'Office of COE',
+    attachmentPdf: 'Mid_Sem_Timetable_Autumn_2024.pdf',
+  },
+  {
+    id: 'notif-2',
+    title: 'CSE Department: Revision in DSA Assignment 3 Submission Deadline',
+    body: 'Due to scheduled server maintenance on the central laboratory Git repository this weekend, the submission window for Assignment 3 (Red-Black Trees) has been extended by 24 hours to Oct 8, 5:00 PM.',
+    timestamp: '5 hours ago',
+    category: 'department',
+    isRead: false,
+    author: 'Dept. of CSE Academic Chair',
+  },
+  {
+    id: 'notif-3',
+    title: 'G-Studio Innovation Hackathon 2024 Registration Open',
+    body: 'Annual campus-wide software engineering hackathon with cash prizes up to ₹5,00,000. Registration closes Oct 15. Track options include AI Systems, FinTech, and Cloud Infrastructure.',
+    timestamp: '1 day ago',
+    category: 'campus',
+    isRead: true,
+    author: 'GITAM Directorate of Student Affairs',
+  },
+  {
+    id: 'notif-4',
+    title: 'Computer Networks Lab Remedial Session Scheduled for Friday',
+    body: 'Special practical review session on Cisco Packet Tracer router multi-area OSPF configuration in Lab 2 from 04:00 PM to 05:30 PM.',
+    timestamp: '1 day ago',
+    category: 'department',
+    isRead: true,
+    author: 'Dr. Priya Rao',
+  },
+  {
+    id: 'notif-5',
+    title: 'Central Library Extended Hours During Exam Week',
+    body: 'Visakhapatnam Central Library will remain open 24/7 starting Monday Oct 7 through Friday Oct 25 to support mid-semester preparation.',
+    timestamp: '2 days ago',
+    category: 'official',
+    isRead: true,
+    author: 'Chief Librarian Office',
+  },
+];
